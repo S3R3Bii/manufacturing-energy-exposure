@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "precision_digits": 50,
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09,
+  "independent_numeric_comparisons": 12597,
+  "max_absolute_difference": 1.0186340659856796e-09,
+  "tables": {
+    "annual": 48,
+    "sector_contrasts": 456,
+    "volume_indices": 513,
+    "rankings": 57,
+    "leave_one_out": 912,
+    "periods": 12,
+    "coverage": 54
+  },
+  "countries": [
+    "DE",
+    "FR",
+    "NL"
+  ],
+  "scope": "All reported effects, linked endpoints, omitted-industry effects, contrasts, indices, ranks and coverage; no primary analysis helper imported."
+}

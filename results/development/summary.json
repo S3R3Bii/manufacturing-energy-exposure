@@ -1,0 +1,13 @@
+{
+  "status": "COMPUTED_PENDING_INDEPENDENT_CHECKS",
+  "countries": [
+    "DE",
+    "FR",
+    "NL"
+  ],
+  "belgium_evaluated": false,
+  "sector_transitions": 456,
+  "opposite_sign_transitions": 60,
+  "max_official_index_gap_points": 0.011739577795424339,
+  "max_decomposition_residual_tj": 1.0186340659856796e-09
+}
