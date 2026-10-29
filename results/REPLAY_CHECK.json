@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "csv_numeric_values_rebuilt": 42515,
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09,
+  "scope": "Isolated retained-source replay of every cell, eligibility rule, annual/period effect, industry contrast, volume index, rank and sensitivity; independent Decimal and SQL checks rerun. No network or paper recompilation."
+}

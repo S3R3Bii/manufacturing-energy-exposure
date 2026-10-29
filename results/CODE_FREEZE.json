@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "2026-10-29T16:58:41.700624+00:00",
+  "status": "FROZEN_BEFORE_BELGIUM_OUTCOMES",
+  "code_checkpoint": "348f4bd17c6335079c45e2b0a2b77f0a98968e3c",
+  "source_checkpoint": "bd0fa9590ce30463a7192a1af90eb2a9c0063304",
+  "sha256": {
+    "PROTOCOL.md": "6843519d412280127dcd0e3e1100b32b96d676155881d4ab295eed2192f417e5",
+    "src/config.py": "3e682cc9a650d1d36a3f8b376a95f2f30156a80ada8324b8409d7dca29afcecc",
+    "src/accounting.py": "98457351f5dc8307fa96ba0b5799aa58f138a2785d07ebd4cb9883b2df85562c",
+    "src/analyze.py": "2cff3feb44f64b05d7a1d300f1285c0ab1285514f6dbb3e617a10f1f54bc2a1d",
+    "src/verify_analysis.py": "d7528b7de85de92c36036859bf6aa4c30c4daf8afb5c5cf8b1a5e91fb069eed2",
+    "tests/test_accounting.py": "b01970789417351ea87a4cf684da31cb71a35f25c4aade871757efc9badf2673",
+    "data/source/manifest.json": "f3af0694ad310d7476eed6bb2b75b619b8a165c499dfba6eed6ddd320ff9ed6a",
+    "data/panel.csv": "0b5c2d40e623c371f5ebabd567ea44b2779da1694df8c55cd4222998e848e5b3"
+  },
+  "separation": "Belgium decomposition, intensity contrasts, volume indices and rankings have not been computed; six-country source-coverage totals are allowed and already retained.",
+  "development_checks": {
+    "synthetic_boundary_tests": 7,
+    "independent_numeric_comparisons": 12597,
+    "max_absolute_difference": 1.0186340659856796e-09
+  },
+  "review_round": 1,
+  "review_budget": "3 rounds / 45 active review minutes / 60 review-specific tool calls per study; execution separate",
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T16:57:05Z",
+    "shared_bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 60,
+    "remaining_percent": 40,
+    "reset_unix": 1793782197
+  },
+  "criterion_grades": {
+    "source_rights": "PASS: exact official responses with attribution",
+    "coverage": "PASS: four eligible; two excluded without imputation",
+    "separation": "PASS for specified analytic outputs; freeze committed before Belgium execution",
+    "independent_development_arithmetic": "PASS: 50-digit Decimal and independent SQL source decode",
+    "publication": "PENDING: Belgium, replay, figures, manuscript, privacy and exact-head Linux CI still required"
+  }
+}

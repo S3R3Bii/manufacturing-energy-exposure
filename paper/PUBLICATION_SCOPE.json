@@ -1,0 +1,12 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "authority": "User authorizes publishing reviewed independent program manuscripts on GitHub; separate formal-publication projects including Azure optimization stay private.",
+  "public_files": {
+    "paper/main.tex": "b6e25e61d19c1be2d4f906935455470bf53ae760f68abc335aaa43e0fad04aaa",
+    "paper/manuscript.pdf": "06fd77755c11b6d77c17b1a617a1d08d82477a139e7032f6edfbef80d00338b0",
+    "paper/images/industry_contrasts.pdf": "a4b685fcd01dcd6a9d0dd1b32dfe63df278e45b4e9868103878acd249ba8da60",
+    "paper/images/industry_rankings.pdf": "0b19f8a18dd83d76cb92e67d005ad5313c27b9aa56eecebb3be6360131cafeba",
+    "paper/images/intensity_contributions.pdf": "3ea8222e9c52ed75a08b76fc9f501bfc4eac42ab0b634c8d10d80a75aa7260e6"
+  }
+}

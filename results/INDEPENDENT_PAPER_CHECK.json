@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "pages": 7,
+  "scope": "Both manuscript tables; all source counts, sign reversals, annual counts, top-five stability, rank changes, exclusion share, frozen code and committed diagnostic certificates; exact approved source/PDF hashes, readable PDF text and bounded active-content checks.",
+  "limitations": "Rendered review is separate; this is not peer review, proof of measurement accuracy, accessibility conformance or universal security detection."
+}

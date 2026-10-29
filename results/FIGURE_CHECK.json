@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "plotted_numeric_coordinates_checked": 1376,
+  "scope": "Actual Matplotlib artist coordinates against every reviewed plotted source row; SVG labels and file presence. Separate rendered visual inspection is required."
+}
