@@ -28,6 +28,8 @@ For each industry, compare annual log intensity change log(E1/E0)-log(q1/q0) usi
 
 Build per-industry volume indices by chaining PYP_t/CP_(t-1), starting at 100 in 2015, and verify their growth against the official CLV_I15 series. Never sum chain-linked sector levels: those are generally non-additive. Annual sector shares and additive decompositions instead use matched current/previous-year-price values. Report within-country 2023 top-five industry ranks using energy/CP and energy/PYP, with deterministic code-order tie-breaking; retain all nineteen ranks. Cross-country price-level and product-mix differences limit comparisons even in a common currency.
 
+Source-series comparison clarification, recorded after coverage checks but before any index or outcome calculation: retain every reconstructed-versus-official index difference. Treat a difference above 0.25 index points as an unresolved source-series consistency problem requiring investigation. This is a prespecified practical reconciliation bound, not an official precision guarantee or a fitted threshold. It does not replace the strict computational tolerance for independent reconstruction.
+
 No sampling confidence interval is claimed: these are revised published accounting estimates and a small convenience panel, with no microdata sampling model. Preserve source flags, denominator sensitivity, annual variation and leave-one-industry-out accounting sensitivity. Such sensitivity ranges are not confidence intervals. No engineering efficiency, carbon, energy-cost, firm-level or realized-savings claim follows directly.
 
 ## Separation, implementation and independent checks

@@ -1,0 +1,322 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-10-29T16:51:09.154242+00:00",
+  "source": "Eurostat official aggregate statistical API;see DATA_RIGHTS.md",
+  "responses": [
+    {
+      "country": "BE",
+      "dataset": "env_ac_pefa04",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_pefa04?lang=en&freq=A&geo=BE&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&indic_pefa=NETDOM_EUSE&unit=TJ",
+      "file": "data/source/BE-env_ac_pefa04.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:10.424336+00:00",
+      "updated": "2025-12-15T23:00:00+0100",
+      "response_sha256": "9a2489bdd4fd03c9356d579298cd4b359b034613dbf0038b7fc3bb8098491099",
+      "stored_sha256": "887a14d1774b2d0c6a2b97a8464c0da2075b11100017891899c3bffb5b36e97a",
+      "id": [
+        "freq",
+        "nace_r2",
+        "indic_pefa",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        20,
+        1,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "BE",
+      "dataset": "nama_10_a64",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?lang=en&freq=A&geo=BE&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&na_item=P1&unit=CP_MEUR&unit=PYP_MEUR&unit=CLV_I15",
+      "file": "data/source/BE-nama_10_a64.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:11.639864+00:00",
+      "updated": "2026-10-28T23:00:00+0100",
+      "response_sha256": "80c88e998ad295c052a55133a2847947713aaf9ef9731ddfcbabb54b84543b6a",
+      "stored_sha256": "413a7939a7b38680f84d055aa2fcffba777c9c50ed80db8997fa00a5eb589ca6",
+      "id": [
+        "freq",
+        "unit",
+        "nace_r2",
+        "na_item",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        3,
+        20,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "DE",
+      "dataset": "env_ac_pefa04",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_pefa04?lang=en&freq=A&geo=DE&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&indic_pefa=NETDOM_EUSE&unit=TJ",
+      "file": "data/source/DE-env_ac_pefa04.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:12.656632+00:00",
+      "updated": "2025-12-15T23:00:00+0100",
+      "response_sha256": "8d72b307ed21873df83927db54bee0cefee8e46d47f1f56e60ef2264b7e1072c",
+      "stored_sha256": "9dd9526d26e1fff445988261430bd305454a6d3cbc0502441ce730cdd1e75ece",
+      "id": [
+        "freq",
+        "nace_r2",
+        "indic_pefa",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        20,
+        1,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "DE",
+      "dataset": "nama_10_a64",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?lang=en&freq=A&geo=DE&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&na_item=P1&unit=CP_MEUR&unit=PYP_MEUR&unit=CLV_I15",
+      "file": "data/source/DE-nama_10_a64.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:13.800692+00:00",
+      "updated": "2026-10-28T23:00:00+0100",
+      "response_sha256": "b87cc69de77eaba6879c36f0630e66deb8a3621fcf5a421e6fff91dd07647dd7",
+      "stored_sha256": "f134434e383061005483d63dc1c2644ffae1c94d363edb0cebf4ff0f564b30ae",
+      "id": [
+        "freq",
+        "unit",
+        "nace_r2",
+        "na_item",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        3,
+        20,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "ES",
+      "dataset": "env_ac_pefa04",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_pefa04?lang=en&freq=A&geo=ES&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&indic_pefa=NETDOM_EUSE&unit=TJ",
+      "file": "data/source/ES-env_ac_pefa04.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:14.859447+00:00",
+      "updated": "2025-12-15T23:00:00+0100",
+      "response_sha256": "564d5f8ca1db4ddf1ae39a117a70a9deda64513372a11ef7e33019d58fdffd77",
+      "stored_sha256": "61eb2bc6c238acfa5105e2036291ff4067c36b1f2b066de02d6e2c6b2bfe45bc",
+      "id": [
+        "freq",
+        "nace_r2",
+        "indic_pefa",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        20,
+        1,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "ES",
+      "dataset": "nama_10_a64",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?lang=en&freq=A&geo=ES&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&na_item=P1&unit=CP_MEUR&unit=PYP_MEUR&unit=CLV_I15",
+      "file": "data/source/ES-nama_10_a64.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:15.914493+00:00",
+      "updated": "2026-10-28T23:00:00+0100",
+      "response_sha256": "8d9a69313d0f82525a6e5ee87943e8c1c7d191fbac47df3fad4bf12423f61af6",
+      "stored_sha256": "005f19b17ad3bd0f657199851968a868d1c672bd07f5bae618aced03a2bdcd5d",
+      "id": [
+        "freq",
+        "unit",
+        "nace_r2",
+        "na_item",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        3,
+        20,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "FR",
+      "dataset": "env_ac_pefa04",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_pefa04?lang=en&freq=A&geo=FR&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&indic_pefa=NETDOM_EUSE&unit=TJ",
+      "file": "data/source/FR-env_ac_pefa04.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:16.945845+00:00",
+      "updated": "2025-12-15T23:00:00+0100",
+      "response_sha256": "c0a8353fb1df559a70bd114f55293a028b72046001bc86d23894f52236fab7cf",
+      "stored_sha256": "8ec4a7be045eb5b31754dcfe0ad06e581127c0dbe95448821dcfe5446208d6d8",
+      "id": [
+        "freq",
+        "nace_r2",
+        "indic_pefa",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        20,
+        1,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "FR",
+      "dataset": "nama_10_a64",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?lang=en&freq=A&geo=FR&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&na_item=P1&unit=CP_MEUR&unit=PYP_MEUR&unit=CLV_I15",
+      "file": "data/source/FR-nama_10_a64.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:18.097036+00:00",
+      "updated": "2026-10-28T23:00:00+0100",
+      "response_sha256": "54e72dc1f65b54aa01a259f010f2392d20d29e25407252c2f7085c5b0238c365",
+      "stored_sha256": "9475e264040f9f768fa427050babd41850c49dbd202c605a780ad0effa7caa44",
+      "id": [
+        "freq",
+        "unit",
+        "nace_r2",
+        "na_item",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        3,
+        20,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "IT",
+      "dataset": "env_ac_pefa04",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_pefa04?lang=en&freq=A&geo=IT&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&indic_pefa=NETDOM_EUSE&unit=TJ",
+      "file": "data/source/IT-env_ac_pefa04.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:19.138455+00:00",
+      "updated": "2025-12-15T23:00:00+0100",
+      "response_sha256": "b4b88e8aa2b9becf86cdb0e25d81039dc17a3953d25e2048ccfbff274aead44e",
+      "stored_sha256": "9c9db27807ee7605178e0554e9f8110262b263973b2fe14c765738793f2fe31b",
+      "id": [
+        "freq",
+        "nace_r2",
+        "indic_pefa",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        20,
+        1,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "IT",
+      "dataset": "nama_10_a64",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?lang=en&freq=A&geo=IT&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&na_item=P1&unit=CP_MEUR&unit=PYP_MEUR&unit=CLV_I15",
+      "file": "data/source/IT-nama_10_a64.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:20.270667+00:00",
+      "updated": "2026-10-28T23:00:00+0100",
+      "response_sha256": "f295d5c99ccb04d543a7ec5a0dc000bb193c4aa9d2a62029f054fde636ffae1d",
+      "stored_sha256": "ef7fa9b71304c31efa6d11535563532a7af6f485a01bb8d162b8b9943658117d",
+      "id": [
+        "freq",
+        "unit",
+        "nace_r2",
+        "na_item",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        3,
+        20,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "NL",
+      "dataset": "env_ac_pefa04",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/env_ac_pefa04?lang=en&freq=A&geo=NL&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&indic_pefa=NETDOM_EUSE&unit=TJ",
+      "file": "data/source/NL-env_ac_pefa04.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:21.376490+00:00",
+      "updated": "2025-12-15T23:00:00+0100",
+      "response_sha256": "da4876b6d3f248c1f71d8283cf5b4a9c376da3e63a9a8369785ff7c3cb98c2bc",
+      "stored_sha256": "92b20e65a9fc73a6cdc228c77de234eedb554dd9af6b48de43d2614948554a24",
+      "id": [
+        "freq",
+        "nace_r2",
+        "indic_pefa",
+        "unit",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        20,
+        1,
+        1,
+        1,
+        9
+      ]
+    },
+    {
+      "country": "NL",
+      "dataset": "nama_10_a64",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64?lang=en&freq=A&geo=NL&sinceTimePeriod=2015&untilTimePeriod=2023&nace_r2=C&nace_r2=C10-C12&nace_r2=C13-C15&nace_r2=C16&nace_r2=C17&nace_r2=C18&nace_r2=C19&nace_r2=C20&nace_r2=C21&nace_r2=C22&nace_r2=C23&nace_r2=C24&nace_r2=C25&nace_r2=C26&nace_r2=C27&nace_r2=C28&nace_r2=C29&nace_r2=C30&nace_r2=C31_C32&nace_r2=C33&na_item=P1&unit=CP_MEUR&unit=PYP_MEUR&unit=CLV_I15",
+      "file": "data/source/NL-nama_10_a64.json.gz",
+      "retrieved_utc": "2026-10-29T16:51:22.584049+00:00",
+      "updated": "2026-10-28T23:00:00+0100",
+      "response_sha256": "23763c0a330309dd22a9c7d032d66e1803621e9a851c67452cc8bfb66409ee09",
+      "stored_sha256": "3c7d0d68d9a80ada99debb0b2c092ccd3bab943a9644b1d30c6cce0b4322c99b",
+      "id": [
+        "freq",
+        "unit",
+        "nace_r2",
+        "na_item",
+        "geo",
+        "time"
+      ],
+      "size": [
+        1,
+        3,
+        20,
+        1,
+        1,
+        9
+      ]
+    }
+  ],
+  "analysis_performed": false,
+  "historical_vintages": "Unavailable;current revised snapshots only",
+  "completed_utc": "2026-10-29T16:51:22.584049+00:00"
+}

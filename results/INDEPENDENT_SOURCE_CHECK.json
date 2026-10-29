@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "responses_hashed": 12,
+  "all_cells_reconstructed": 4320,
+  "panel_rows_joined": 1080,
+  "country_source_checks": [
+    {
+      "country": "BE",
+      "missing_or_nonpositive_required_cells": 0,
+      "break_or_definition_flag": false,
+      "eligible": true,
+      "max_defined_aggregate_difference": 0.19999999983701855
+    },
+    {
+      "country": "DE",
+      "missing_or_nonpositive_required_cells": 0,
+      "break_or_definition_flag": false,
+      "eligible": true,
+      "max_defined_aggregate_difference": 0.2000000011175871
+    },
+    {
+      "country": "ES",
+      "missing_or_nonpositive_required_cells": 180,
+      "break_or_definition_flag": false,
+      "eligible": false,
+      "max_defined_aggregate_difference": 0.19999999995343387
+    },
+    {
+      "country": "FR",
+      "missing_or_nonpositive_required_cells": 0,
+      "break_or_definition_flag": false,
+      "eligible": true,
+      "max_defined_aggregate_difference": 0.19999999948777258
+    },
+    {
+      "country": "IT",
+      "missing_or_nonpositive_required_cells": 180,
+      "break_or_definition_flag": true,
+      "eligible": false,
+      "max_defined_aggregate_difference": 0.2000000000698492
+    },
+    {
+      "country": "NL",
+      "missing_or_nonpositive_required_cells": 0,
+      "break_or_definition_flag": false,
+      "eligible": true,
+      "max_defined_aggregate_difference": 0.29999999958090484
+    }
+  ],
+  "scope": "Every API dimension/key/value/missing cell/flag,unique grain,normalized panel and SQL eligibility/aggregate check. No primary ingestion helper imported.",
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09
+}
