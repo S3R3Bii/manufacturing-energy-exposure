@@ -1,0 +1,7 @@
+{
+  "version": "study34-paper-render-1",
+  "status": "FAIL_PRESENTATION",
+  "observed_utc": "2026-10-29T17:02:56Z",
+  "evidence": "Tectonic reported an overfull hbox of 13.88737pt at manuscript line160; page7 showed the unbreakable observations path crossing the text margin.",
+  "repair": "Use the URL-aware path formatter for all three source paths in the paragraph. Recompiled and rerendered seven pages; affected page7 freshly inspected. No scientific output changed."
+}

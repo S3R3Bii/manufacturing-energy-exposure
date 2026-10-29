@@ -1,0 +1,67 @@
+{
+  "timestamp_utc": "2026-10-29T17:05:10.119921+00:00",
+  "version": "study34-local-candidate-2",
+  "status": "LOCAL_CHECKS_PASS_REMOTE_RELEASE_PENDING",
+  "manuscript_sha256": "06fd77755c11b6d77c17b1a617a1d08d82477a139e7032f6edfbef80d00338b0",
+  "public_file_sha256": {
+    "paper/main.tex": "b6e25e61d19c1be2d4f906935455470bf53ae760f68abc335aaa43e0fad04aaa",
+    "paper/manuscript.pdf": "06fd77755c11b6d77c17b1a617a1d08d82477a139e7032f6edfbef80d00338b0",
+    "paper/images/industry_contrasts.pdf": "a4b685fcd01dcd6a9d0dd1b32dfe63df278e45b4e9868103878acd249ba8da60",
+    "paper/images/industry_rankings.pdf": "0b19f8a18dd83d76cb92e67d005ad5313c27b9aa56eecebb3be6360131cafeba",
+    "paper/images/intensity_contributions.pdf": "3ea8222e9c52ed75a08b76fc9f501bfc4eac42ab0b634c8d10d80a75aa7260e6"
+  },
+  "publication_certificate_sha256": {
+    "results/analysis/summary.json": "883e2df2ece387688c7b708df4c5d7abd6830d9b578a004830809feeefac64c8",
+    "results/analysis/INDEPENDENT_CHECK.json": "a4af475f9a5c4e0efba7f87be3187043343de33cad4f4dd173d222c4caf7926c"
+  },
+  "acceptance_criteria": {
+    "sources_and_rights": {
+      "grade": "PASS",
+      "evidence": "12 original official aggregate responses, exact hashes, full cell/flag decode and attribution; no source-paper redistribution"
+    },
+    "coverage": {
+      "grade": "PASS",
+      "evidence": "four complete countries pass prespecified rule; ES/IT exclusions and28.9%candidate-set2023energyshare retained"
+    },
+    "separation": {
+      "grade": "PASS",
+      "evidence": "code freeze pushed at bd0ef0ee2828741c673f5802a4bd423f4da5937f before BE analytic outputs; source-coverage totals explicitly allowed earlier"
+    },
+    "independent_arithmetic": {
+      "grade": "PASS",
+      "evidence": "7 boundary tests; 4,320-cell independent SQL source check; 16,724 Decimal comparisons; 42,515 numerical CSV values freshly replayed"
+    },
+    "presentation_and_source_support": {
+      "grade": "PASS",
+      "evidence": "Three original vector figures; all 1,376 plotted numeric coordinates checked; all seven manuscript pages and three standalone figure PNGs visually inspected. Page7 freshly inspected after path-overflow repair."
+    },
+    "privacy": {
+      "grade": "PASS",
+      "evidence": "Exact staged audit of78intendedfiles: no findings; five hash-approved independent paper files. PDF text and bounded active-content check passed."
+    },
+    "remote_release": {
+      "grade": "PENDING",
+      "evidence": "exact-head LinuxCI, merged/tested-tree identity and annotated remote tag required before counting"
+    }
+  },
+  "scope_limits": [
+    "No new-method or comprehensive novelty claim",
+    "Accounting intensity is not engineering efficiency or causality",
+    "No energy-bill, GDP, carbon, firm ROI or real-time-vintage claim",
+    "No sampling CI or accessibility-conformance claim"
+  ],
+  "review_round": 2,
+  "review_budget": "3 substantive rounds / 45 active review minutes / 60 review-specific calls; execution separate",
+  "workload_proxy": "Under20minutes elapsed from source checkpoint through this review; not quota/billing. Review-specific call count was not separately instrumented; bounded verification performed directly without agents.",
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T16:57:05Z",
+    "shared_bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 60,
+    "remaining_percent": 40,
+    "reset_unix": 1793782197
+  },
+  "material_changes": "Frozen four-country analysis, three figures and source-bound seven-page manuscript; original layout failure retained. Scientific code and tolerances unchanged.",
+  "next_step": "Push reviewed candidate, then exact-head Linux CI, merged/tested-tree verification and annotated tag."
+}

@@ -1,0 +1,6 @@
+{
+  "status": "FAIL_DIFF_CHECK",
+  "version": "study34-figure-export-1",
+  "evidence": "Git diff check rejected trailing spaces in generated Matplotlib SVG path data.",
+  "repair": "Strip insignificant trailing line spaces on export; coordinates, reviewed PNGs and PDFs unchanged."
+}
